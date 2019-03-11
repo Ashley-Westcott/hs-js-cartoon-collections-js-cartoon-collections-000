@@ -1,7 +1,11 @@
-// 1. It should then return a string with the numbered dwarves. The string should look like this: "1. Doc 2. Dopey 3. Bashful 4. Grumpy "
-// 2. It should then convert each element to uppercase and add an exclamation point at the end. The return value of this method should be an array, in this example: ["EARTH!", "WIND!", "FIRE!", "WATER!", "HEART!"]
-// 3. The longPlaneteerCalls method should accept an array of calls. The function should tell us if any of the calls are longer than four characters. 
-// 4. The "findTheCheese" function should accept an array of strings. It should then look through these strings and return the first string that is a type of cheese. The types of cheese that appear are cheddar, gouda, and camembert.
+/* 
+
+1. It should then return a string with the numbered dwarves. The string should look like this: "1. Doc 2. Dopey 3. Bashful 4. Grumpy "
+2. It should then convert each element to uppercase and add an exclamation point at the end. The return value of this method should be an array, in this example: ["EARTH!", "WIND!", "FIRE!", "WATER!", "HEART!"]
+3. The longPlaneteerCalls method should accept an array of calls. The function should tell us if any of the calls are longer than four characters. 
+4. The "findTheCheese" function should accept an array of strings. It should then look through these strings and return the first string that is a type of cheese. The types of cheese that appear are cheddar, gouda, and camembert.
+
+*/
 
 var dwarves = ['Doc', 'Dopey', 'Bashful', 'Grumpy']
 
