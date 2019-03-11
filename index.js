@@ -11,7 +11,7 @@ var dwarves = ['Doc', 'Dopey', 'Bashful', 'Grumpy']
 
 function dwarfRollCall(dwarves) {
   var string = []
-  for(var i=0; i<dwarves.length; i++){
+  for(var i=parseInt(dwarves.length/2); i<dwarves.length; i++){
     string.push((i+1) + ". " + dwarves[i] +" ")
   }
   return string.join("")
@@ -38,11 +38,18 @@ function longPlaneteerCalls(words) {
 
 function findTheCheese (foods) {
 for(var i =0; i < foods.length; i++) {
-if(foods[i] === "cheddar" ){
+if(foods[i] === "cheddar" || foods[i] === "bleu" ){
 return foods[i];
   } 
 }
-if (foods !== "cheddar") {
 return "no cheese!";
-  } 
+}
+
+function wordsWithB (words){
+  var newArray = []
+  for (var i = 0; i<words.length; i++){
+   if(words[i].startsWith("b")) {
+  newArray.push(words[i])}
+  }
+  return newArray
 }
